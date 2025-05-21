@@ -1,0 +1,71 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2024-03-20",
+  "artworks": [
+    {
+      "id": "welcome_001",
+      "title": "Welcome to AR Gallery",
+      "artist": "System",
+      "type": "image",
+      "url": "https://raw.githubusercontent.com/yourusername/ar-gallery-assets/main/images/welcome.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/yourusername/ar-gallery-assets/main/images/thumbnails/welcome_thumb.png",
+      "position": [0, 0, 0],
+      "rotation": [0, 0, 0, 1],
+      "scale": [1, 1, 1],
+      "description": "Welcome to the AR Gallery experience",
+      "tags": ["welcome", "system"],
+      "metadata": {
+        "createdAt": "2024-03-20T00:00:00Z",
+        "format": "PNG",
+        "dimensions": [1920, 1080]
+      }
+    },
+    {
+      "id": "001",
+      "title": "Digital Sunset",
+      "artist": "Sarah Chen",
+      "type": "image",
+      "url": "https://your-domain.com/artworks/digital-sunset.png",
+      "position": [0, 0, 0],
+      "rotation": [0, 0, 0, 1],
+      "scale": [1, 1, 1]
+    },
+    {
+      "id": "002",
+      "title": "Abstract Flow",
+      "artist": "Marcus Johnson",
+      "type": "3dmodel",
+      "url": "https://your-domain.com/artworks/abstract-flow.glb",
+      "position": [1, 0, -2],
+      "rotation": [0, 0.7071, 0, 0.7071],
+      "scale": [0.5, 0.5, 0.5]
+    },
+    {
+      "id": "003",
+      "title": "Urban Geometry",
+      "artist": "Elena Rodriguez",
+      "type": "image",
+      "url": "https://your-domain.com/artworks/urban-geometry.jpg",
+      "position": [-1, 0, -1],
+      "rotation": [0, 0, 0, 1],
+      "scale": [1.2, 1.2, 1.2]
+    }
+  ],
+  "settings": {
+    "defaultScale": 1.0,
+    "minScale": 0.1,
+    "maxScale": 10.0,
+    "placementDistance": 1.0,
+    "autoLoad": true,
+    "cacheSize": 1024,
+    "supportedFormats": ["PNG", "JPG", "MP4", "GLB"]
+  },
+  "endpoints": {
+    "baseUrl": "https://api.yourdomain.com/v1",
+    "upload": "/upload",
+    "status": "/status",
+    "download": "/download",
+    "artwork": "/artwork",
+    "user": "/user"
+  }
+} 
