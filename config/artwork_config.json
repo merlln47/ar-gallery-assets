@@ -7,8 +7,8 @@
       "title": "Welcome to AR Gallery",
       "artist": "System",
       "type": "image",
-      "url": "https://raw.githubusercontent.com/yourusername/ar-gallery-assets/main/images/welcome.png",
-      "thumbnailUrl": "https://raw.githubusercontent.com/yourusername/ar-gallery-assets/main/images/thumbnails/welcome_thumb.png",
+      "url": "https://raw.githubusercontent.com/merlln47/ar-gallery-assets/main/images/welcome.png",
+      "thumbnailUrl": "https://raw.githubusercontent.com/merlln47/ar-gallery-assets/main/thumbnails/welcome_thumb.png",
       "position": [0, 0, 0],
       "rotation": [0, 0, 0, 1],
       "scale": [1, 1, 1],
@@ -19,36 +19,6 @@
         "format": "PNG",
         "dimensions": [1920, 1080]
       }
-    },
-    {
-      "id": "001",
-      "title": "Digital Sunset",
-      "artist": "Sarah Chen",
-      "type": "image",
-      "url": "https://your-domain.com/artworks/digital-sunset.png",
-      "position": [0, 0, 0],
-      "rotation": [0, 0, 0, 1],
-      "scale": [1, 1, 1]
-    },
-    {
-      "id": "002",
-      "title": "Abstract Flow",
-      "artist": "Marcus Johnson",
-      "type": "3dmodel",
-      "url": "https://your-domain.com/artworks/abstract-flow.glb",
-      "position": [1, 0, -2],
-      "rotation": [0, 0.7071, 0, 0.7071],
-      "scale": [0.5, 0.5, 0.5]
-    },
-    {
-      "id": "003",
-      "title": "Urban Geometry",
-      "artist": "Elena Rodriguez",
-      "type": "image",
-      "url": "https://your-domain.com/artworks/urban-geometry.jpg",
-      "position": [-1, 0, -1],
-      "rotation": [0, 0, 0, 1],
-      "scale": [1.2, 1.2, 1.2]
     }
   ],
   "settings": {
@@ -68,4 +38,4 @@
     "artwork": "/artwork",
     "user": "/user"
   }
-} 
+}
